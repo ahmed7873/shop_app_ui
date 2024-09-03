@@ -58,7 +58,9 @@ class ProductCard2 extends StatelessWidget {
                           productModel.fav
                               ? Icons.favorite
                               : Icons.favorite_outline,
-                          color: productModel.fav ? Colors.orange[700] : Colors.grey,
+                          color: productModel.fav
+                              ? Colors.orange[700]
+                              : Colors.grey,
                         )),
                   ),
                 ),

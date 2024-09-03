@@ -6,8 +6,8 @@ class HeaderBodyScondScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ListTile(
-      title: Text("data"),
-      subtitle: Text("dah adyg yuayi asyu"),
+      title: const Text("data"),
+      subtitle: const Text("dah adyg yuayi asyu"),
       leading: Image.asset("images/7.jpeg"),
       trailing: Icon(
         Icons.favorite,

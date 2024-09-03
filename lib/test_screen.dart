@@ -5,8 +5,8 @@ import 'package:task_1/widets/product_card.dart';
 import 'package:task_1/widets/warning_widget.dart';
 
 // ignore: must_be_immutable
-class FirstScreen extends StatelessWidget {
-  FirstScreen({super.key});
+class TestScreen extends StatelessWidget {
+  TestScreen({super.key});
   int selectedTab = 0;
   final List<ProductModel> products = [
     ProductModel(

@@ -5,8 +5,8 @@ import 'package:task_1/widets/second_screen/body_header.dart';
 import 'package:task_1/widets/second_screen/product_card2.dart';
 
 // ignore: must_be_immutable
-class SecondScreen extends StatelessWidget {
-  SecondScreen({super.key});
+class ThirdScreen extends StatelessWidget {
+  ThirdScreen({super.key});
   int selectedTab = 0;
   final List<ProductModel> products = [
     ProductModel(
@@ -65,7 +65,7 @@ class SecondScreen extends StatelessWidget {
             height: 260,
             decoration: const BoxDecoration(
                 image: DecorationImage(
-                    fit: BoxFit.cover, image: AssetImage("images/4.jpeg"))),
+                    fit: BoxFit.cover, image: AssetImage("images/5.jpeg"))),
           ),
           DefaultTabController(
             length: 4,
@@ -140,6 +140,33 @@ class SecondScreen extends StatelessWidget {
                             " Locations",
                             style: TextStyle(fontWeight: FontWeight.bold),
                           ),
+                        ],
+                      ),
+                    ),
+                    const SizedBox(
+                      height: 10,
+                    ),
+                    Container(
+                      padding: const EdgeInsets.symmetric(vertical: 20),
+                      width: double.infinity,
+                      // height: 100,
+                      decoration: BoxDecoration(
+                        color: Colors.orange,
+                        borderRadius: BorderRadius.circular(10),
+                      ),
+                      child: const Column(
+                        children: [
+                          Text(
+                            "30% OFF",
+                            style: TextStyle(
+                                fontSize: 20,
+                                color: Colors.white,
+                                fontWeight: FontWeight.bold),
+                          ),
+                          Text(
+                            "enjoy 30% off on of categories",
+                            style: TextStyle(color: Colors.white),
+                          )
                         ],
                       ),
                     ),
